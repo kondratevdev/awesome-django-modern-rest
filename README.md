@@ -12,8 +12,7 @@
 ### Official Resources
 
 - [Documentation](https://django-modern-rest.readthedocs.io/en/latest/) - Provides a complete API reference along with practical usage guides.
-- [Source Code](https://github.com/wemake-services/django-modern-rest/) - Is available on GitHub.
-<!--lint enable double-link-->
+- [Source Code](https://github.com/wemake-services/django-modern-rest/) - Is available on GitHub.<!--lint enable double-link-->
 - [Perfomance and Benchmarks](https://django-modern-rest.readthedocs.io/en/latest/pages/deep-dive/performance.html#performance-and-benchmarks) - Performance analysis and benchmark results.
 
 ### Third-Party Extensions
