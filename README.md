@@ -1,11 +1,16 @@
 # Awesome Django Modern REST [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-dark.svg#gh-light-mode-only" alt="Awesome Modern REST Logo - Light" width="100%" height="auto" />
+  <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-light.svg#gh-dark-mode-only" alt="Awesome Modern REST Logo - Dark" width="100%" height="auto" />
+</div>
+
 [![CI](https://github.com/kondratevdev/awesome-django-modern-rest/actions/workflows/ci.yml/badge.svg)](https://github.com/kondratevdev/awesome-django-modern-rest/actions/workflows/ci.yml)
 
 > A curated list of resources related to Django Modern REST
 
 <!--lint disable double-link-->
-[Modern REST](https://github.com/wemake-services/django-modern-rest) framework for Django with types and async support!
+[Modern REST](https://github.com/wemake-services/django-modern-rest) framework for [Django](https://github.com/django/django) with types and async support!
 
 ## Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -42,6 +47,10 @@
 
 - [wemake-django-templates](https://github.com/wemake-services/wemake-django-template/) - Can be used to jump-start your new project and already includes an example of using this framework with DI and all the modern goodies.
 
+- [spectacular-dmr-demo](https://github.com/gimntut/spectacular-dmr-demo) - Demonstrates a gradual migration from DRF to django-modern-rest with drf-spectacular serving as a unified OpenAPI interface.
+
 ## Articles
 
 - [Why Django needs a new REST API](https://t.me/opensource_findings/938) - A concise article (in Russian) on why Django needs a modern REST API and how django-modern-rest brings strict OpenAPI, full typing, async support, and high performance without abandoning the Django ecosystem.
+
+- [Django Modern REST 0.1.0: First Public Release](https://t.me/opensource_findings/950) - - A detailed release announcement (in Russian) covering the framework's core ideas, major features, and ecosystem integrations.
