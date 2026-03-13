@@ -1,11 +1,16 @@
 # Awesome Django Modern REST [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-dark.svg#gh-light-mode-only" alt="Awesome Modern REST Logo - Light" width="100%" height="auto" />
+  <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-light.svg#gh-dark-mode-only" alt="Awesome Modern REST Logo - Dark" width="100%" height="auto" />
+</div>
+
 [![CI](https://github.com/kondratevdev/awesome-django-modern-rest/actions/workflows/ci.yml/badge.svg)](https://github.com/kondratevdev/awesome-django-modern-rest/actions/workflows/ci.yml)
 
 > A curated list of resources related to Django Modern REST
 
 <!--lint disable double-link-->
-[Modern REST](https://github.com/wemake-services/django-modern-rest) framework for Django with types and async support!
+[Modern REST](https://github.com/wemake-services/django-modern-rest) framework for [Django](https://github.com/django/django) with types and async support!
 
 ## Contents
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
