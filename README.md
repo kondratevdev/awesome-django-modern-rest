@@ -53,4 +53,4 @@
 
 - [Why Django needs a new REST API](https://t.me/opensource_findings/938) - A concise article (in Russian) on why Django needs a modern REST API and how django-modern-rest brings strict OpenAPI, full typing, async support, and high performance without abandoning the Django ecosystem.
 
-- [Django Modern REST 0.1.0: First Public Release](https://t.me/opensource_findings/950) - - A detailed release announcement (in Russian) covering the framework's core ideas, major features, and ecosystem integrations.
+- [Django Modern REST 0.1.0: First Public Release](https://t.me/opensource_findings/950) - A detailed release announcement (in Russian) covering the framework's core ideas, major features, and ecosystem integrations.
