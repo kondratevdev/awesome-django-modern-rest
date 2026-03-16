@@ -34,6 +34,7 @@
 
 ## Extensions
 
+- [diwire](https://docs.diwire.dev/howto/web/django-modern-rest.html) - Guide on integrating the `diwire` type-driven dependency injection framework.
 - [dmr-dishka](https://github.com/arturboyun/dmr-dishka) - Provides integration of [Dishka](https://github.com/reagento/dishka/) dependency injection framework with types and async support.
 
 ## Typing and Tooling
