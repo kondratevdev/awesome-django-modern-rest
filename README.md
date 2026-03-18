@@ -47,7 +47,7 @@
 
 ## Projects and Templates
 
-- [wemake-django-templates](https://github.com/wemake-services/wemake-django-template/) - Can be used to jump-start your new project and already includes an example of using this framework with DI and all the modern goodies.
+- [wemake-django-templates](https://github.com/wemake-services/wemake-django-template/) - A template to jump-start a new project and already includes an example of using this framework with DI and all the modern goodies.
 
 - [spectacular-dmr-demo](https://github.com/gimntut/spectacular-dmr-demo) - Demonstrates a gradual migration from DRF to django-modern-rest with drf-spectacular serving as a unified OpenAPI interface.
 
