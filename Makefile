@@ -10,6 +10,9 @@ lint: ## Run linting checks
 	awesome-lint README.md
 	awesome_bot README.md
 
-.PHONY: lint
+.PHONY: toc
 toc: ## Run ToC generation
 	doctoc README.md
+
+.PHONY: test
+test: lint toc  ## Run all tests

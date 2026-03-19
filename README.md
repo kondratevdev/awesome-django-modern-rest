@@ -28,31 +28,31 @@
 
 ## Official
 
-- [Documentation](https://django-modern-rest.readthedocs.io/en/latest/) - Provides a complete API reference along with practical usage guides.
-- [Source Code](https://github.com/wemake-services/django-modern-rest/) - Is available on GitHub.<!--lint enable double-link-->
+- [Documentation](https://django-modern-rest.readthedocs.io/en/latest/) - Complete API reference and practical usage guides.
+- [Source code](https://github.com/wemake-services/django-modern-rest/) - Source repository on GitHub.<!--lint enable double-link-->
 - [Performance and Benchmarks](https://django-modern-rest.readthedocs.io/en/latest/pages/deep-dive/performance.html#performance-and-benchmarks) - Performance analysis and benchmark results.
 
 ## Extensions
 
-- [diwire](https://docs.diwire.dev/howto/web/django-modern-rest.html) - Guide on integrating the `diwire` type-driven dependency injection framework.
-- [dmr-dishka](https://github.com/arturboyun/dmr-dishka) - Provides integration of [Dishka](https://github.com/reagento/dishka/) dependency injection framework with types and async support.
+- [diwire](https://docs.diwire.dev/howto/web/django-modern-rest.html) - Integration guide for the `diwire` type-driven dependency injection framework.
+- [dmr-dishka](https://github.com/arturboyun/dmr-dishka) - Integration package for [Dishka](https://github.com/reagento/dishka/) with typing and async support.
 
 ## Typing and Tooling
 
-- [django-stubs](https://github.com/typeddjango/django-stubs) - Provides type stubs and a mypy plugin for Django, making it easier to keep django-modern-rest projects fully typed.
+- [django-stubs](https://github.com/typeddjango/django-stubs) - Type stubs and a mypy plugin for Django projects using django-modern-rest.
 
 ## AI and Spec-First
 
-- [dmr-llm-spec-first](https://github.com/milssky/dmr-llm-spec-first) - Codex skill that generates a Django project skeleton with django-modern-rest directly from an OpenAPI specification.
+- [dmr-llm-spec-first](https://github.com/milssky/dmr-llm-spec-first) - Spec-first generator for django-modern-rest project skeletons from OpenAPI definitions.
 
 ## Projects and Templates
 
-- [wemake-django-templates](https://github.com/wemake-services/wemake-django-template/) - A template to jump-start a new project and already includes an example of using this framework with DI and all the modern goodies.
+- [wemake-django-templates](https://github.com/wemake-services/wemake-django-template/) - Production-ready project template with django-modern-rest and modern tooling.
 
-- [spectacular-dmr-demo](https://github.com/gimntut/spectacular-dmr-demo) - Demonstrates a gradual migration from DRF to django-modern-rest with drf-spectacular serving as a unified OpenAPI interface.
+- [spectacular-dmr-demo](https://github.com/gimntut/spectacular-dmr-demo) - Demo of gradual migration from DRF to django-modern-rest with a unified OpenAPI layer.
 
 ## Articles
 
-- [Why Django needs a new REST API](https://t.me/opensource_findings/938) - A concise article (in Russian) on why Django needs a modern REST API and how django-modern-rest brings strict OpenAPI, full typing, async support, and high performance without abandoning the Django ecosystem.
+- [Why Django needs a new REST API](https://t.me/opensource_findings/938) - Short Russian-language overview of the framework's goals and core benefits.
 
-- [Django Modern REST 0.1.0: First Public Release](https://t.me/opensource_findings/950) - A detailed release announcement (in Russian) covering the framework's core ideas, major features, and ecosystem integrations.
+- [Django Modern REST 0.1.0: First Public Release](https://t.me/opensource_findings/950) - Detailed Russian-language release post covering key features and ecosystem integrations.
