@@ -1,0 +1,30 @@
+name: Spellcheck Action
+
+on:
+  # Enabling manual test
+  # REF: https://stackoverflow.com/questions/58933155/manual-workflow-triggers-in-github-actions
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    name: Spellcheck
+    runs-on: ubuntu-latest
+    steps:
+
+      # The checkout step
+      - uses: actions/checkout@v6
+
+      - uses: rojopolis/spellcheck-github-actions@v0
+        name: Spellcheck
+        with:
+          source_files: README.md CHANGELOG.md
+          task_name: Markdown
+          output_file: spellcheck-output.txt
+
+      - uses: actions/upload-artifact@v4
+        if: '!cancelled()'
+        name: Archive spellcheck output
+        with:
+          name: Spellcheck artifact
+          path: spellcheck-output.txt
