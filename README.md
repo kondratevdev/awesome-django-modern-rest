@@ -57,3 +57,7 @@
 - [Why Django needs a new REST API](https://t.me/opensource_findings/938) - Short Russian-language overview of the framework's goals and core benefits.
 
 - [Django Modern REST 0.1.0: First Public Release](https://t.me/opensource_findings/950) - Detailed Russian-language release post covering key features and ecosystem integrations.
+
+## Health Checks
+
+- [django-health-check](https://github.com/codingjoe/django-health-check) - Simple health check endpoints for Django. Works with `django-modern-rest` without any special integration – just add the URLs and checks you need.
