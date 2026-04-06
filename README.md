@@ -24,6 +24,7 @@
 - [AI and Spec-First](#ai-and-spec-first)
 - [Projects and Templates](#projects-and-templates)
 - [Articles](#articles)
+- [Health Checks](#health-checks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
