@@ -15,4 +15,4 @@ toc: ## Run ToC generation
 	doctoc README.md
 
 .PHONY: test
-test: lint toc  ## Run all tests
+test: toc lint  ## Run all tests
