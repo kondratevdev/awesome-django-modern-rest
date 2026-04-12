@@ -54,6 +54,8 @@
 
 - [spectacular-dmr-demo](https://github.com/gimntut/spectacular-dmr-demo) - Demo of gradual migration from DRF to django-modern-rest with a unified OpenAPI layer.
 
+- [url-shortener-django-modern-rest-example](https://github.com/Peopl3s/url-shortener-django-modern-rest-example) - URL shortener API example built with Django and django-modern-rest.
+
 ## Articles
 
 - [Why Django needs a new REST API](https://t.me/opensource_findings/938) - Short Russian-language overview of the framework's goals and core benefits.
