@@ -22,7 +22,9 @@
 - [Official](#official)
 - [Extensions](#extensions)
 - [Tooling and Utilities](#tooling-and-utilities)
-- [AI and Spec-First](#ai-and-spec-first)
+- [AI and Agent Tooling](#ai-and-agent-tooling)
+  - [Official AI context](#official-ai-context)
+  - [Official migration and generation skills](#official-migration-and-generation-skills)
 - [Projects and Templates](#projects-and-templates)
 - [Articles](#articles)
 
@@ -45,9 +47,23 @@
 - [django-mantle](https://noumenal.es/mantle/) - Typed model conversion for Django `QuerySet`s with official django-modern-rest [integration documentation](https://django-modern-rest.readthedocs.io/en/latest/pages/integrations.html#django-mantle).
 - [django-health-check](https://github.com/codingjoe/django-health-check) - Simple health check endpoints for Django.
 
-## AI and Spec-First
+## AI and Agent Tooling
 
-- [dmr-llm-spec-first](https://github.com/milssky/dmr-llm-spec-first) - Spec-first generator for django-modern-rest project skeletons from OpenAPI definitions.
+### Official AI context
+
+- [LLMs support in docs](https://django-modern-rest.readthedocs.io/en/latest/pages/getting-started.html#llms-support) - Official guidance for AI-assisted development and upgrade workflows.
+- [llms.txt](https://django-modern-rest.readthedocs.io/llms.txt) - Lightweight index for LLM context.
+- [llms-full.txt](https://django-modern-rest.readthedocs.io/llms-full.txt) - Full documentation context for coding agents.
+- [Context7](https://context7.com/wemake-services/django-modern-rest) - Up-to-date DMR docs for AI tools.
+- [DeepWiki](https://deepwiki.com/wemake-services/django-modern-rest) - AI-friendly knowledge view of the framework.
+
+### Official migration and generation skills
+
+- [dmr](https://github.com/wemake-services/django-modern-rest/tree/master/.agents/skills/dmr) - Best-practices skill for building/maintaining DMR code.
+- [dmr-from-drf](https://github.com/wemake-services/django-modern-rest/tree/master/.agents/skills/dmr-from-drf) - AI-guided migration from Django REST Framework to django-modern-rest.
+- [dmr-from-django-ninja](https://github.com/wemake-services/django-modern-rest/tree/master/.agents/skills/dmr-from-django-ninja) - AI-guided migration from django-ninja / ninja-extra.
+- [dmr-openapi-skeleton](https://github.com/wemake-services/django-modern-rest/tree/master/.agents/skills/dmr-openapi-skeleton) - Spec-first generation of DMR transport skeleton from OpenAPI 3.1+.
+
 
 ## Projects and Templates
 
