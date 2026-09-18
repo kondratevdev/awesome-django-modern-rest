@@ -40,6 +40,7 @@
 
 - [diwire](https://docs.diwire.dev/howto/web/django-modern-rest.html) - Integration guide for the `diwire` type-driven dependency injection framework.
 - [dmr-dishka](https://github.com/arturboyun/dmr-dishka) - Integration package for [Dishka](https://github.com/reagento/dishka/) with typing and async support.
+- [jam](https://jam.makridenko.com) - Authentication and authorization framework with [Django Modern REST integration](https://jam.makridenko.com/latest/integrations/django/dmr).
 
 ## Tooling and Utilities
 
