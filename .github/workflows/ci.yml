@@ -37,4 +37,4 @@ jobs:
           ruby-version: 2.7
 
       - run: gem install awesome_bot
-      - run: awesome_bot README.md
+      - run: awesome_bot README.md --white-list "$(grep -Ev '^(#|$)' .github/whitelist.txt | tr '\n' ',' | sed 's/,$//')"
