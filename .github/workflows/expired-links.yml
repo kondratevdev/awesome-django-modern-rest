@@ -1,20 +1,35 @@
 name: Link Check
 
 on:
+  workflow_dispatch:
   push:
     branches:
-    - master
+      - master
   schedule:
-  - cron: "0 0 * * 1"  # Once a week
+    - cron: "0 0 * * 1" # Once a week
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
-  markdown-link-check:
+  link-check:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
 
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
-      with:
-        use-quiet-mode: 'yes'
-        use-verbose-mode: 'yes'
-        config-file: .github/workflows/markdown-links-config.json
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Check Markdown links with lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --cache --max-cache-age 1d './**/*.md'
