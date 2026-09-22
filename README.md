@@ -1,8 +1,10 @@
 # Awesome Django Modern REST [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-dark.svg#gh-light-mode-only" alt="Awesome Modern REST Logo - Light" width="100%" height="auto" />
-  <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-light.svg#gh-dark-mode-only" alt="Awesome Modern REST Logo - Dark" width="100%" height="auto" />
+  <a href="https://django-modern-rest.readthedocs.io/en/latest/">
+    <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-dark.svg#gh-light-mode-only" alt="Awesome Modern REST Logo - Light" width="100%" height="auto" />
+    <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-light.svg#gh-dark-mode-only" alt="Awesome Modern REST Logo - Dark" width="100%" height="auto" />
+  </a>
 
 <!--lint disable double-link-->
 [![CI](https://github.com/kondratevdev/awesome-django-modern-rest/actions/workflows/ci.yml/badge.svg)](https://github.com/kondratevdev/awesome-django-modern-rest/actions/workflows/ci.yml)
