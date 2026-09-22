@@ -45,7 +45,7 @@
 ## Tooling and Utilities
 
 - [django-stubs](https://github.com/typeddjango/django-stubs) - Type stubs and a mypy plugin for Django projects using django-modern-rest.
-- [django-mantle](https://noumenal.es/mantle/) - Typed model conversion for Django `QuerySet`s with official django-modern-rest [integration documentation](https://django-modern-rest.readthedocs.io/en/latest/pages/integrations.html#django-mantle).
+- [django-mantle](https://noumenal.es/mantle/) - Typed model conversion for Django `QuerySet`s with official django-modern-rest [integration documentation](https://django-modern-rest.readthedocs.io/en/latest/pages/queryset.html#django-mantle).
 - [django-modern-schemas](https://open-byte.github.io/django-modern-schemas/) - Automatically generates Pydantic v2 schemas from Django models, avoiding duplicated field definitions.
 - [django-health-check](https://github.com/codingjoe/django-health-check) - Simple health check endpoints for Django.
 
