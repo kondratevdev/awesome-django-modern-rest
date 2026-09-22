@@ -2,8 +2,10 @@
 
 <div align="center">
   <a href="https://django-modern-rest.readthedocs.io/en/latest/">
-    <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-dark.svg#gh-light-mode-only" alt="Awesome Modern REST Logo - Light" width="100%" height="auto" />
-    <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-light.svg#gh-dark-mode-only" alt="Awesome Modern REST Logo - Dark" width="100%" height="auto" />
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-light.svg" media="(prefers-color-scheme: dark)">
+      <img src="https://raw.githubusercontent.com/kondratevdev/awesome-django-modern-rest/master/assets/logo-dark.svg#gh-light-mode-only" alt="Awesome Modern REST Logo - Light" width="100%" height="auto" />
+    </picture>
   </a>
 
 <!--lint disable double-link-->
