@@ -1,0 +1,31 @@
+# Configuration for checking this repository's own links.
+
+# Show warnings and errors, without successful-check output.
+verbose = "warn"
+
+# Avoid connection resets and rate limiting on public documentation hosts.
+max_concurrency = 4
+max_retries = 5
+retry_wait_time = 4
+
+# Require secure web links and validate their TLS certificates.
+require_https = true
+insecure = false
+scheme = ["https"]
+
+# Check files in hidden directories as well.
+hidden = true
+
+# User agent to send with each request.
+user_agent = "curl/8.7.1"
+
+# Validate URL fragments against their target pages.
+include_fragments = "full"
+
+# Permit a single redirect.
+max_redirects = 1
+
+exclude = [
+  # This guide was moved or removed after PR #58.
+  "^https://jam\\.makridenko\\.com/latest/integrations/django/dmr$",
+]

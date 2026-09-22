@@ -1,2 +1,0 @@
-# Context: https://github.com/kondratevdev/awesome-django-modern-rest/pull/58
-https://jam.makridenko.com/latest/integrations/django/dmr

@@ -25,16 +25,16 @@ jobs:
 
       - run: npx awesome-lint
 
-  awesome-bot:
+  lychee:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7.0.1
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          fetch-depth: 0
+          persist-credentials: false
 
-      - uses: ruby/setup-ruby@v1.323.0
+      - name: Check links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
-          ruby-version: 2.7
-
-      - run: gem install awesome_bot
-      - run: awesome_bot README.md --white-list "$(grep -Ev '^(#|$)' .github/whitelist.txt | tr '\n' ',' | sed 's/,$//')"
+          args: --config .github/lychee.toml README.md
+          fail: true
+          jobSummary: true
