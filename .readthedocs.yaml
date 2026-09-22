@@ -5,9 +5,9 @@ build:
   tools:
     python: "3.13"
   jobs:
-    pre_build:
+    post_install:
       - pip install poetry
-      - poetry install --with docs
+      - VIRTUAL_ENV=$READTHEDOCS_VIRTUALENV_PATH poetry install --with docs
 
 sphinx:
   configuration: 'docs/conf.py'
