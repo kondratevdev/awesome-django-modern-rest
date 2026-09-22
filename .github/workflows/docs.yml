@@ -3,21 +3,9 @@ name: Documentation
 on:
   workflow_dispatch:
   pull_request:
-    paths:
-      - ".readthedocs.yaml"
-      - "docs/**"
-      - "README.md"
-      - "poetry.lock"
-      - "pyproject.toml"
   push:
     branches:
       - master
-    paths:
-      - ".readthedocs.yaml"
-      - "docs/**"
-      - "README.md"
-      - "poetry.lock"
-      - "pyproject.toml"
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
