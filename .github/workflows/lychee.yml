@@ -1,40 +1,32 @@
-name: CI
+name: Lychee
 
 on:
   workflow_dispatch:
-  pull_request:
   push:
     branches:
       - master
-
+  schedule:
+    - cron: "0 0 * * 1" # Once a week
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
   contents: read
 
 jobs:
-  awesome-lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7.0.1
-        with:
-          fetch-depth: 0
-
-      - run: npx awesome-lint
-
   lychee:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
 
       - name: Check links
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
-          args: --config .github/lychee.toml README.md
+          args: --config .github/lychee.toml './**/*.md'
           fail: true
           jobSummary: true
