@@ -1,0 +1,14 @@
+version: 2
+
+build:
+  os: ubuntu-lts-latest
+  tools:
+    python: "3.13"
+  jobs:
+    pre_build:
+      - pip install poetry
+      - poetry install --with docs
+
+sphinx:
+  configuration: 'docs/conf.py'
+  fail_on_warning: true

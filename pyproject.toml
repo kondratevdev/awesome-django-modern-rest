@@ -1,0 +1,24 @@
+[project]
+name = "awesome-django-modern-rest"
+description = "A curated list of resources related to Django Modern REST."
+version = "0.1.0"
+requires-python = ">=3.13,<3.14"
+authors = [
+  { name = "Nikita Sobolev", email = "mail@sobolevn.me" },
+  { name = "Alexander Kondratev", email = "mail@kondratev.dev" },
+  { name = "Alexey Potapov", email = "me@black-as-ink.ru" },
+]
+license = "MIT"
+package-mode = false
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = ">=9,<10"
+myst-parser = ">=5,<6"
+shibuya = ">=2026.1,<2027"

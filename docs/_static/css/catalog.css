@@ -1,0 +1,66 @@
+.project-logo {
+  display: block;
+  width: min(100%, 300px);
+  margin: 1rem 0;
+}
+
+/* Compact, documentation-like catalog, inspired by Awesome Django. */
+.yue > section > section {
+  margin-top: 2rem;
+  scroll-margin-top: 5rem;
+}
+
+.yue > section > section > h2 {
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid var(--sy-c-border);
+}
+
+.yue > section > section > ul {
+  margin-top: 0.5rem;
+}
+
+.yue > section > section > ul > li {
+  margin: 0;
+  padding: 0.25rem 0;
+  line-height: 1.55;
+}
+
+.yue > section ul.simple > li > p {
+  margin: 0 !important;
+}
+
+.yue > section > section > ul > li > a:first-child {
+  color: var(--sy-c-heading);
+  font-weight: 700;
+}
+
+.yue > section > section > section {
+  margin-top: 2rem;
+}
+
+.yue > section > section > section > h3 {
+  color: var(--sy-c-link);
+  font-size: 1rem;
+}
+
+.yue > section > section > section > ul {
+  margin-top: 1rem;
+}
+
+.yue > section > section > section > ul > li {
+  margin: 0;
+  padding: 0.25rem 0;
+}
+
+/* The project has no global navigation, so do not reserve an empty column. */
+@media (min-width: 768px) {
+  #lside,
+  .lside-overlay {
+    display: none !important;
+  }
+
+  .sy-main {
+    width: calc(100% - 16rem) !important;
+    max-width: none !important;
+  }
+}
