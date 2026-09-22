@@ -30,6 +30,8 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+<!-- START awesome-list -->
+
 ## Official
 
 - [Documentation](https://django-modern-rest.readthedocs.io/en/latest/) - Complete API reference and practical usage guides.
@@ -77,3 +79,5 @@
 
 - [Why Django needs a new REST API](https://t.me/opensource_findings/938) - Short Russian-language overview of the framework's goals and core benefits.
 - [Django Modern REST 0.1.0: First Public Release](https://t.me/opensource_findings/950) - Detailed Russian-language release post covering key features and ecosystem integrations.
+
+<!-- END awesome-list -->
