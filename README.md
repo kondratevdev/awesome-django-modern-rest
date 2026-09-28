@@ -67,10 +67,10 @@
 
 ### Official migration and generation skills
 
-- [dmr](https://github.com/wemake-services/django-modern-rest/tree/master/.agents/skills/dmr) - Best-practices skill for building/maintaining DMR code.
-- [dmr-from-drf](https://github.com/wemake-services/django-modern-rest/tree/master/.agents/skills/dmr-from-drf) - AI-guided migration from Django REST Framework to django-modern-rest.
-- [dmr-from-django-ninja](https://github.com/wemake-services/django-modern-rest/tree/master/.agents/skills/dmr-from-django-ninja) - AI-guided migration from django-ninja / ninja-extra.
-- [dmr-openapi-skeleton](https://github.com/wemake-services/django-modern-rest/tree/master/.agents/skills/dmr-openapi-skeleton) - Spec-first generation of DMR transport skeleton from OpenAPI 3.1+.
+- [dmr](https://github.com/wemake-services/django-modern-rest/tree/master/dmr/.agents/skills/dmr) - Best-practices skill for building/maintaining DMR code.
+- [dmr-from-drf](https://github.com/wemake-services/django-modern-rest/tree/master/dmr/.agents/skills/dmr-from-drf) - AI-guided migration from Django REST Framework to django-modern-rest.
+- [dmr-from-django-ninja](https://github.com/wemake-services/django-modern-rest/tree/master/dmr/.agents/skills/dmr-from-django-ninja) - AI-guided migration from django-ninja / ninja-extra.
+- [dmr-openapi-skeleton](https://github.com/wemake-services/django-modern-rest/tree/master/dmr/.agents/skills/dmr-openapi-skeleton) - Spec-first generation of DMR transport skeleton from OpenAPI 3.1+.
 
 
 ## Projects and Templates
