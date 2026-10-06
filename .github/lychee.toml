@@ -28,4 +28,7 @@ max_redirects = 1
 exclude = [
   # This guide was moved or removed after PR #58.
   "^https://jam\\.makridenko\\.com/latest/integrations/django/dmr$",
+
+  # DeepWiki may return 429 to automated link checkers.
+  "^https://deepwiki\\.com/.*$",
 ]
