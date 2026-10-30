@@ -54,14 +54,14 @@
 - [django-mantle](https://noumenal.es/mantle/) - Typed model conversion for Django `QuerySet`s with official django-modern-rest [integration documentation](https://django-modern-rest.readthedocs.io/en/latest/pages/queryset.html#django-mantle).
 - [django-modern-schemas](https://open-byte.github.io/django-modern-schemas/) - Automatically generates Pydantic v2 schemas from Django models, avoiding duplicated field definitions.
 - [django-health-check](https://github.com/codingjoe/django-health-check) - Simple health check endpoints for Django.
+- [imgproxykit](https://github.com/kondratevdev/imgproxykit) - Typed imgproxy URL builder with signed URLs, reusable image transformations, and Django integration.
 
 ## AI and Agent Tooling
 
 ### Official AI context
 
 - [LLMs support in docs](https://django-modern-rest.readthedocs.io/en/latest/pages/getting-started.html#llms-support) - Official guidance for AI-assisted development and upgrade workflows.
-- [llms.txt](https://django-modern-rest.readthedocs.io/llms.txt) - Lightweight index for LLM context.
-- [llms-full.txt](https://django-modern-rest.readthedocs.io/llms-full.txt) - Full documentation context for coding agents.
+- [llms.txt](https://django-modern-rest.readthedocs.io/llms.txt) - Documentation context for LLM coding.
 - [Context7](https://context7.com/wemake-services/django-modern-rest) - Up-to-date DMR docs for AI tools.
 - [DeepWiki](https://deepwiki.com/wemake-services/django-modern-rest) - AI-friendly knowledge view of the framework.
 
