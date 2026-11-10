@@ -54,7 +54,7 @@
 - [django-mantle](https://noumenal.es/mantle/) - Typed model conversion for Django `QuerySet`s with official django-modern-rest [integration documentation](https://django-modern-rest.readthedocs.io/en/latest/pages/queryset.html#django-mantle).
 - [django-modern-schemas](https://open-byte.github.io/django-modern-schemas/) - Automatically generates Pydantic v2 schemas from Django models, avoiding duplicated field definitions.
 - [django-health-check](https://github.com/codingjoe/django-health-check) - Simple health check endpoints for Django.
-- [imgproxykit](https://github.com/kondratevdev/imgproxykit) - Typed imgproxy URL builder with signed URLs, reusable image transformations, and Django integration.
+- [imgproxykit](https://github.com/wemake-services/imgproxykit) - Typed imgproxy URL builder with signed URLs, reusable image transformations, and Django integration.
 
 ## AI and Agent Tooling
 
